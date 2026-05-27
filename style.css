@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* HEADER */
+.main-header {
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+    background: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* PRODUCTS */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* PRODUCT PAGE */
+.product-page {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.product-img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.product-info {
+    max-width: 400px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.main-footer {
+    background: #222;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.main-footer h3, .main-footer h4 {
+    margin-bottom: 10px;
+}
+
+.main-footer p {
+    margin: 5px 0;
+}
+
+copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+/* CONTACT PAGE LAYOUT */
+.contact-section {
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* FLEXBOX: FORM LEFT, INFO RIGHT */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+/* LEFT SIDE FORM */
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.contact-form button {
+    background: #222;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* RIGHT SIDE INFO BOX */
+.contact-info {
+    flex: 1;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    flex-wrap: nowrap; /* keeps them in one horizontal line */
+}
+
+.product-card {
+    width: 250px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.checkout-form, .order-summary {
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.checkout-form button {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkout-form button:hover {
+    background: #333;
+}
+
+.order-summary h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
